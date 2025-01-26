@@ -1,10 +1,10 @@
-import tdarecuperatorio as tda
+from tdarecuperatorio import Cola
 from random import choice
 
 
 consultorios = [1,2,3,4,5,6,7]
 
-turnos = tda.Cola()
+turnos = Cola()
 # creamos la fila de los 20 turnos
 for i in range(20): turnos.encolar(i)
 
