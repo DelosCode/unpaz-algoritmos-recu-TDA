@@ -54,7 +54,7 @@ class Cola:
         if self.es_vacia():
             print("La cola está vacía")
         else:
-            print(f"\nDesencolando {self.lista_cola.pop(0)}")
+            return self.lista_cola.pop(0)
            
     def es_vacia(self):
         ''' Devuelve True si la cola esta vacía, False si no. '''
@@ -64,7 +64,7 @@ class Cola:
         print(self.lista_cola)
      
     def largo(self):
-        return len(self.lista_cola) 
+        return len(self.lista_cola)
 
 
 #Fin de TDA Cola
